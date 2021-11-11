@@ -1,4 +1,19 @@
 
+Overview
+-----
+The task was to create an airbnb clone in a week, in a team of 4. This brought together our skills in ruby, html, servers and http.
+
+We didn't have time to tidy up the front end html or add css. There are also some logical flaws in the booking system that need to be closed. These are the next steps.
+
+How to use
+-----
+Clone the repo and run bundle install
+You'll need to run the db migration files to set up the db (see below)
+Then, run the server and open the path in your browser
+Create a user and a venue
+Logout, create a 2nd user and book then venue created
+Logout, log back in as the first user, and approve the venue request. It should now no longer be listed for booking
+
 Database setup
 -----
 Use the following commands to set up the databases.
